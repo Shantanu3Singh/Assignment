@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    background-color: rgb(36, 13, 13);
+}
+.navbar{
+    padding-left: 150px;
+    padding-top: 20px;
+    
+    }
+    .navbar a{
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+    }
+a:hover{
+    text-emphasis: 20%;
+    
+
+}
+.imag h1{
+    color: white;
+    padding-left: 20px;
+}
+.imag{
+    text-decoration: none;
+
+}
+
+
+
+.logo img{
+    height: 50px;
+    width :45px;
+    opacity: 0.5;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.booktrial{
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    
+}
+.naturepic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+}
+.naturepic .box{
+    padding: 10px;
+    margin: 10px;
+    
+    border-width: ;
+    border-spacing: 5px;
+}
+.naturepic .box img{
+width: 300px;
+height: 300 px;
+
+}
+.journey{
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
